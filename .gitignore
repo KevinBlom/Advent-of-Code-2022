@@ -96,3 +96,4 @@ iOSInjectionProject/
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,xcode
+/Advent of Code 2022.xcodeproj/project.xcworkspace/xcuserdata/kevin.xcuserdatad/UserInterfaceState.xcuserstate
