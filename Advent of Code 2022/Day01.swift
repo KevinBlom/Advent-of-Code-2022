@@ -35,7 +35,6 @@ struct Day01: Day {
         
         print("Day 1 - Puzzle 1")
         print("Most calorie rich snack sack: \(mostCalories.totalCalories)")
-        print("===========================================================\n")
     }
     
     func puzzle2() {

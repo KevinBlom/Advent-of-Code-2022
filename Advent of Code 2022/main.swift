@@ -11,6 +11,7 @@ var dayToRun = Day01()
 
 dayToRun.printIntroduction()
 dayToRun.puzzle1()
+print("\n===========================================================\n")
 dayToRun.puzzle2()
 dayToRun.printSummary()
 
