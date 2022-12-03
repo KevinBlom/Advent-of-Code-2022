@@ -8,12 +8,6 @@
 import Foundation
 
 struct Game {
-    // Conditions from my perspective
-    let winConditions: [String] = ["A Y","B Z","C X"]
-    let drawConditions: [String] = ["A X","B Y","C Z"]
-    let loseConditions: [String] = ["A Z","B X","C Y"]
-    
-    
     
     let game: String
     let opponentsPlay: Character?
@@ -24,36 +18,36 @@ struct Game {
         self.game = game
         self.opponentsPlay = game.first
         self.myPlay = game.last
-        self.myPlayScore = myPlay == "X" ? 1 : myPlay == "Y" ? 2 : 3
+        self.myPlayScore = myPlay == "X" ? 1 : myPlay == "Y" ? 2 : 3 // Strategy one score only. For second strategy this is different
     }
     
     var strategyOneScore: Int {
         get {
-            if winConditions.contains(game) {
-                return 6 + myPlayScore
-            } else if drawConditions.contains(game) {
-                return 3 + myPlayScore
-            } else if loseConditions.contains(game) {
-                return 0 + myPlayScore
-            } else {
-                print("Error calculating score")
-                return -1000000
+            var gameScore = 0
+            
+            switch(opponentsPlay, myPlay) {
+                case ("A", "Y"), ("B", "Z"), ("C", "X"): gameScore += 6 // Win conditions
+                case ("A", "X"), ("B", "Y"), ("C", "Z"): gameScore += 3 // Draw conditions
+                default: gameScore += 0 // Lose condition is anything else.
             }
+            
+            return gameScore + myPlayScore
         }
     }
     
     var strategyTwoScore: Int  {
         get {
-            // calculate game score
             var gameScore = 0
             var playScore = 0
             
-            switch(opponentsPlay, myPlay) {
-                case ("A", "Y"), ("B", "Y"), ("C", "Y"): gameScore += 3
-                case ("A", "Z"), ("B", "Z"), ("C", "Z"): gameScore += 6
+            // My play determines the game outcome so we only need to know my play
+            switch(myPlay) {
+                case "Y" : gameScore += 3
+                case "Z" : gameScore += 6
                 default: gameScore += 0
             }
             
+            // Opponents play determines what I play, and this my play score
             switch(opponentsPlay, myPlay) {
                 case ("A", "Y"), ("B", "X"), ("C", "Z"): playScore += 1
                 case ("A", "Z"), ("B", "Y"), ("C", "X"): playScore += 2
