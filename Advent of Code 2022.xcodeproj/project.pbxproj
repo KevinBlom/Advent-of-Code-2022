@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A276F742938D3A6002FAB63 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A276F732938D3A6002FAB63 /* Day01.swift */; };
+		0AA1FE06293A5B6A0022ABB0 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1FE05293A5B6A0022ABB0 /* Day02.swift */; };
 		0AEBA1DE2938A1B8001E92C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBA1DD2938A1B8001E92C1 /* main.swift */; };
 		0AEBA1E82938AC1C001E92C1 /* 1-1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AEBA1E72938ABFE001E92C1 /* 1-1.txt */; };
 		0AEBA1EA2938AD97001E92C1 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBA1E92938AD97001E92C1 /* Tools.swift */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0A276F732938D3A6002FAB63 /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
+		0AA1FE05293A5B6A0022ABB0 /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
+		0AA1FE07293A5BFB0022ABB0 /* 2-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2-1.txt"; sourceTree = "<group>"; };
 		0AEBA1DA2938A1B8001E92C1 /* Advent of Code 2022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code 2022"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEBA1DD2938A1B8001E92C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "/Users/kevin/Developer/Advent-of-Code-2022/Advent of Code 2022/main.swift"; sourceTree = "<absolute>"; };
 		0AEBA1E72938ABFE001E92C1 /* 1-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1-1.txt"; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 				0AEBA1DD2938A1B8001E92C1 /* main.swift */,
 				0AEBA1E92938AD97001E92C1 /* Tools.swift */,
 				0A276F732938D3A6002FAB63 /* Day01.swift */,
+				0AA1FE05293A5B6A0022ABB0 /* Day02.swift */,
 			);
 			path = "Advent of Code 2022";
 			sourceTree = "<group>";
@@ -75,6 +79,7 @@
 		0AEBA1E42938A237001E92C1 /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
+				0AA1FE07293A5BFB0022ABB0 /* 2-1.txt */,
 				0AEBA1E72938ABFE001E92C1 /* 1-1.txt */,
 			);
 			path = Inputs;
@@ -140,6 +145,7 @@
 			files = (
 				0AEBA1DE2938A1B8001E92C1 /* main.swift in Sources */,
 				0AEBA1EA2938AD97001E92C1 /* Tools.swift in Sources */,
+				0AA1FE06293A5B6A0022ABB0 /* Day02.swift in Sources */,
 				0A276F742938D3A6002FAB63 /* Day01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

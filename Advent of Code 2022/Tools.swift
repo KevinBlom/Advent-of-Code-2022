@@ -28,3 +28,9 @@ protocol Day {
     func puzzle2()
     func printSummary()
 }
+
+extension Day {
+    func printSummary() {
+        print("\n")
+    }
+}

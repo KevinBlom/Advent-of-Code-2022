@@ -7,7 +7,7 @@
 
 import Foundation
 
-var dayToRun = Day01()
+var dayToRun = Day02()
 
 dayToRun.printIntroduction()
 dayToRun.puzzle1()
