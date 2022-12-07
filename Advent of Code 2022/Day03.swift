@@ -32,7 +32,7 @@ struct Day03: Day {
     
     init() {
         let fileName: String = "3-1.txt"
-        let input: [String] = loadInputAsStrings(fileName: fileName)
+        let input: [String] = loadInputAsStrings(fileName: fileName, debugPrint: true)
         rucksacks = input.map({ Rucksack(items: $0)})
     }
     
