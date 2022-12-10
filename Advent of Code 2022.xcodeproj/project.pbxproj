@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		0A276F742938D3A6002FAB63 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A276F732938D3A6002FAB63 /* Day01.swift */; };
 		0A2F9F0D294093A600C2E313 /* Day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F9F0C294093A600C2E313 /* Day04.swift */; };
+		0A2F9F102940EE2500C2E313 /* Day05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F9F0F2940EE2500C2E313 /* Day05.swift */; };
 		0A66C7F1293BA01500E4F5E7 /* Day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66C7F0293BA01500E4F5E7 /* Day03.swift */; };
+		0A9D6C52294489DF00BECDEB /* Day06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D6C51294489DF00BECDEB /* Day06.swift */; };
 		0AA1FE06293A5B6A0022ABB0 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1FE05293A5B6A0022ABB0 /* Day02.swift */; };
 		0AEBA1DE2938A1B8001E92C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBA1DD2938A1B8001E92C1 /* main.swift */; };
 		0AEBA1E82938AC1C001E92C1 /* 1-1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AEBA1E72938ABFE001E92C1 /* 1-1.txt */; };
@@ -33,8 +35,13 @@
 		0A276F732938D3A6002FAB63 /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
 		0A2F9F0C294093A600C2E313 /* Day04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day04.swift; sourceTree = "<group>"; };
 		0A2F9F0E294098F000C2E313 /* 4-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4-1.txt"; sourceTree = "<group>"; };
+		0A2F9F0F2940EE2500C2E313 /* Day05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day05.swift; sourceTree = "<group>"; };
 		0A66C7F0293BA01500E4F5E7 /* Day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day03.swift; sourceTree = "<group>"; };
 		0A66C7F2293BA0ED00E4F5E7 /* 3-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3-1.txt"; sourceTree = "<group>"; };
+		0A9D6C4F2944740800BECDEB /* 5-moves.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5-moves.txt"; sourceTree = "<group>"; };
+		0A9D6C502944740800BECDEB /* 5-stacks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5-stacks.txt"; sourceTree = "<group>"; };
+		0A9D6C51294489DF00BECDEB /* Day06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day06.swift; sourceTree = "<group>"; };
+		0A9D6C5329448A0B00BECDEB /* 6-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6-1.txt"; sourceTree = "<group>"; };
 		0AA1FE05293A5B6A0022ABB0 /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
 		0AA1FE07293A5BFB0022ABB0 /* 2-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2-1.txt"; sourceTree = "<group>"; };
 		0AEBA1DA2938A1B8001E92C1 /* Advent of Code 2022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code 2022"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +87,8 @@
 				0AA1FE05293A5B6A0022ABB0 /* Day02.swift */,
 				0A66C7F0293BA01500E4F5E7 /* Day03.swift */,
 				0A2F9F0C294093A600C2E313 /* Day04.swift */,
+				0A2F9F0F2940EE2500C2E313 /* Day05.swift */,
+				0A9D6C51294489DF00BECDEB /* Day06.swift */,
 			);
 			path = "Advent of Code 2022";
 			sourceTree = "<group>";
@@ -87,6 +96,9 @@
 		0AEBA1E42938A237001E92C1 /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
+				0A9D6C5329448A0B00BECDEB /* 6-1.txt */,
+				0A9D6C4F2944740800BECDEB /* 5-moves.txt */,
+				0A9D6C502944740800BECDEB /* 5-stacks.txt */,
 				0A2F9F0E294098F000C2E313 /* 4-1.txt */,
 				0A66C7F2293BA0ED00E4F5E7 /* 3-1.txt */,
 				0AA1FE07293A5BFB0022ABB0 /* 2-1.txt */,
@@ -155,6 +167,8 @@
 			files = (
 				0AEBA1DE2938A1B8001E92C1 /* main.swift in Sources */,
 				0AEBA1EA2938AD97001E92C1 /* Tools.swift in Sources */,
+				0A9D6C52294489DF00BECDEB /* Day06.swift in Sources */,
+				0A2F9F102940EE2500C2E313 /* Day05.swift in Sources */,
 				0A2F9F0D294093A600C2E313 /* Day04.swift in Sources */,
 				0AA1FE06293A5B6A0022ABB0 /* Day02.swift in Sources */,
 				0A66C7F1293BA01500E4F5E7 /* Day03.swift in Sources */,
